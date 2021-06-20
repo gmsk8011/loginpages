@@ -1,0 +1,50 @@
+body {
+  background-color: darkviolet;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+h2 {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+}
+
+.login {
+  height: 400px;
+  width: 400px;
+  background-color: violet;
+  margin: auto;
+  border-radius: 20px;
+}
+
+label, input {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  margin: auto;
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 10px;
+}
+
+form {
+  margin: auto;
+}
+
+.image {
+  background-image: url(../images/userr.png);
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}

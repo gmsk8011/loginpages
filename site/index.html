@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\login.css">
+  </head>
+  <body>
+    <h2>Login</h2>
+    <div class="row d-flex align-items-center">
+      <div class="login text-center">
+        <form class="loginn">
+          <div class="image">
+          </div>
+          <label for="username">Username :- </label>
+          <input type="text" name="username" value="">
+          <br>
+          <br>
+          <label for="password">Password :- </label>
+          <input type="password" name="password" value="">
+          <br>
+          <br>
+          <button onclick="check(this.form)">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script>
+    function check(form) {
+      if (form.username.value == "admin" && form.password.value == "admin") {
+        window.open('')
+      }
+      else {
+        alert("It is invalid.")
+      }
+    }
+  </script>
+</html>
