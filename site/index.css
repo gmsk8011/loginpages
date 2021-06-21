@@ -1,38 +1,41 @@
 body {
-  background-color: darkviolet;
+  background-image: url(https://source.unsplash.com/1600x900/?waterfall);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-h2 {
-  text-align: center;
-  font-family: 'PT Sans', sans-serif;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
 .row {
   height: 100%;
   width: 100%;
+  margin-top: 150px;
 }
 
 .login {
-  height: 400px;
-  width: 400px;
-  background-color: violet;
+  background-color: grey;
+  background-image: linear-gradient(to bottom, cyan , lightgreen);
   margin: auto;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 label, input {
   text-align: center;
   font-family: 'PT Sans', sans-serif;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 button {
+  background-color: deepskyblue;
+  border: none;
+  color: white;
+  margin: 20px;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   border-radius: 10px;
 }
 
@@ -41,10 +44,10 @@ form {
 }
 
 .image {
-  background-image: url(../images/userr.png);
-  height: 100px;
-  width: 100px;
+  background-image: url(../images/userrrr.png);
+  height: 70px;
+  width: 70px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: -40px;
   margin-bottom: 40px;
 }

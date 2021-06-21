@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
+
+body {
+  margin: 0;
+  background-color: pink;
+}
+
+.navbar {
+  background-color: purple;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  margin: -10px;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: -10px;
+  padding: 0;
+  margin-left: 40px;
+  color: red;
+  font-size: 4em;
+  text-shadow: 1px 1px 1px #222;
+  font-family: 'Miss Fajardose', cursive;
+}
+
+h2 {
+  margin: 0;
+  margin-left: 40px;
+  color: darkviolet;
+  font-weight: 500;
+  font-size: 4em;
+  font-family: 'Miss Fajardose', cursive;
+}
+
+h3 {
+  color: darkviolet;
+  margin: 0;
+  margin-left: 40px;
+  margin-top: -50px;
+}
+
+p {
+  color: darkviolet;
+  font-family: cursive;
+  margin: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.1em;
+}
+
+a {
+  color: darkviolet;
+  text-decoration: none;
+}
+
+b:hover {
+  color: red;
+  cursor: pointer;
+}
+
+a img {
+  display: none;
+}
+
+a:hover img {
+  display: block;
+  position: absolute;
+}
